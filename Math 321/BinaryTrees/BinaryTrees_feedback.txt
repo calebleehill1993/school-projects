@@ -1,0 +1,76 @@
+10/04/18 11:14
+
+binary_trees.py has not been modified yet
+
+-------------------------------------------------------------------------------
+
+10/05/18 17:23
+
+binary_trees.py has not been modified yet
+
+-------------------------------------------------------------------------------
+
+10/11/18 09:38
+
+binary_trees.py has not been modified yet
+
+-------------------------------------------------------------------------------
+
+10/17/18 15:53
+
+binary_trees.py has not been modified yet
+
+-------------------------------------------------------------------------------
+
+10/17/18 21:52
+
+binary_trees.py has not been modified yet
+
+-------------------------------------------------------------------------------
+
+10/18/18 09:14
+
+Problem 1 (5 points):
+Score += 5
+
+Problem 2 (10 points):
+Score += 10
+
+Problem 3 (25 points):
+BST.remove() failed to raise a ValueError (got a NotImplementedError instead)
+NotImplementedError: Problem 3 Incomplete
+
+Problem 4 (5 points):
+NotImplementedError: Problem 4 Incomplete
+
+Code Quality (5 points):
+not implemented
+Score += 0
+
+Total score: 15/50 = 30.0%
+
+-------------------------------------------------------------------------------
+
+10/18/18 09:40
+
+Problem 1 (5 points):
+Score += 5
+
+Problem 2 (10 points):
+Score += 10
+
+Problem 3 (25 points):
+BST.remove() failed to raise a ValueError (got a NotImplementedError instead)
+NotImplementedError: Problem 3 Incomplete
+
+Problem 4 (5 points):
+NotImplementedError: Problem 4 Incomplete
+
+Code Quality (5 points):
+not implemented
+Score += 0
+
+Total score: 15/50 = 30.0%
+
+-------------------------------------------------------------------------------
+

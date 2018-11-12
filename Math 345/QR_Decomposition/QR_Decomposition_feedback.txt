@@ -1,0 +1,100 @@
+10/26/18 13:45
+
+Problem 1 (10 points):
+NotImplementedError: Problem 1 Incomplete
+
+Problem 2 (5 points):
+NotImplementedError: Problem 2 Incomplete
+
+Problem 3 (10 points):
+NotImplementedError: Problem 3 Incomplete
+
+Problem 4 (10 points):
+NotImplementedError: Problem 4 Incomplete
+
+Problem 5 (10 points):
+NotImplementedError: Problem 5 Incomplete
+
+Code Quality (5 points):
+Code can be improved for qr_householder()
+Score += 0
+
+Total score: 0/50 = 0.0%
+
+-------------------------------------------------------------------------------
+
+10/29/18 14:22
+
+Problem 1 (10 points):
+NotImplementedError: Problem 1 Incomplete
+
+Problem 2 (5 points):
+NotImplementedError: Problem 2 Incomplete
+
+Problem 3 (10 points):
+NotImplementedError: Problem 3 Incomplete
+
+Problem 4 (10 points):
+NotImplementedError: Problem 4 Incomplete
+
+Problem 5 (10 points):
+NotImplementedError: Problem 5 Incomplete
+
+Code Quality (5 points):
+Code can be improved for qr_gram_schmidt()
+Score += 0
+
+Total score: 0/50 = 0.0%
+
+-------------------------------------------------------------------------------
+
+10/29/18 21:38
+
+Problem 1 (10 points):
+NotImplementedError: Problem 1 Incomplete
+
+Problem 2 (5 points):
+NotImplementedError: Problem 2 Incomplete
+
+Problem 3 (10 points):
+NotImplementedError: Problem 3 Incomplete
+
+Problem 4 (10 points):
+NotImplementedError: Problem 4 Incomplete
+
+Problem 5 (10 points):
+NotImplementedError: Problem 5 Incomplete
+
+Code Quality (5 points):
+Code can be improved for qr_householder()
+Score += 0
+
+Total score: 0/50 = 0.0%
+
+-------------------------------------------------------------------------------
+
+10/30/18 10:15
+
+Problem 1 (10 points):
+NotImplementedError: Problem 1 Incomplete
+
+Problem 2 (5 points):
+NotImplementedError: Problem 2 Incomplete
+
+Problem 3 (10 points):
+NotImplementedError: Problem 3 Incomplete
+
+Problem 4 (10 points):
+NotImplementedError: Problem 4 Incomplete
+
+Problem 5 (10 points):
+NotImplementedError: Problem 5 Incomplete
+
+Code Quality (5 points):
+Code can be improved for qr_householder()
+Score += 0
+
+Total score: 0/50 = 0.0%
+
+-------------------------------------------------------------------------------
+
