@@ -1,0 +1,4 @@
+﻿  Source.cpp
+f:\documents\visual studio 2015\projects\project3\project3\source.cpp(36): warning C4717: 'main': recursive on all control paths, function will cause runtime stack overflow
+  Project3.vcxproj -> F:\Documents\Visual Studio 2015\Projects\Project3\Debug\Project3.exe
+  Project3.vcxproj -> F:\Documents\Visual Studio 2015\Projects\Project3\Debug\Project3.pdb (Partial PDB)

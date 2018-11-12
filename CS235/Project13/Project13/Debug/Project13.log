@@ -1,0 +1,5 @@
+﻿  Source1.cpp
+f:\documents\visual studio 2015\projects\project13\project13\source1.cpp(45): error C2078: too many initializers
+f:\documents\visual studio 2015\projects\project13\project13\source1.cpp(179): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+f:\documents\visual studio 2015\projects\project13\project13\source1.cpp(244): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+f:\documents\visual studio 2015\projects\project13\project13\source1.cpp(303): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data

@@ -1,0 +1,7 @@
+﻿  Source.cpp
+f:\documents\visual studio 2015\projects\project7\project7\source.cpp(20): warning C4018: '<': signed/unsigned mismatch
+f:\documents\visual studio 2015\projects\project7\project7\source.cpp(40): warning C4018: '<': signed/unsigned mismatch
+f:\documents\visual studio 2015\projects\project7\project7\source.cpp(82): warning C4018: '<': signed/unsigned mismatch
+f:\documents\visual studio 2015\projects\project7\project7\source.cpp(166): warning C4018: '<': signed/unsigned mismatch
+  Project7.vcxproj -> F:\Documents\Visual Studio 2015\Projects\Project7\Debug\Project7.exe
+  Project7.vcxproj -> F:\Documents\Visual Studio 2015\Projects\Project7\Debug\Project7.pdb (Partial PDB)

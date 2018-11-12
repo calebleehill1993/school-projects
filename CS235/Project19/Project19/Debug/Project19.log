@@ -1,0 +1,4 @@
+﻿  main.cpp
+f:\documents\visual studio 2015\projects\project19\project19\map.h(77): warning C4715: 'Map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >::operator[]': not all control paths return a value
+  Project19.vcxproj -> F:\Documents\Visual Studio 2015\Projects\Project19\Debug\Project19.exe
+  Project19.vcxproj -> F:\Documents\Visual Studio 2015\Projects\Project19\Debug\Project19.pdb (Partial PDB)

@@ -1,0 +1,64 @@
+Pokemon:
+Tyranitar rock
+Natu psychic
+Umbreon dark
+Hitmontop fighting
+Typhlosion flying
+Ho-oh 
+Steelix steel
+Misdreavus ghost
+Crobat poison
+Totodile water
+Bayleaf bug
+Scizor 
+
+Moves:
+magical_leaf grass
+iron_tail steel
+triple_kick rock
+stone_edge 
+poison_fang poison
+ariel_ace flying
+night_shade ghost
+dark_pulse water
+hydro_pump 
+fury_cutter bug
+inferno psychic
+psybeam 
+
+Effectivities:
+psychic: fighting poison
+fighting:  dark rock steel
+flying:  bug fighting grass
+dark:  ghost psychic
+fire:  bug grass ice steel
+steel: rock
+grass:  ground rock water
+water: fire ground rock
+rock:  bug fire flying
+poison 
+poison: grass
+ghost:  ghost psychic
+bug:  dark grass psychic
+
+Ineffectivities:
+psychic:  dark psychic steel
+fighting:  bug flying poison psychic
+flying: rock steel
+dark:  dark fighting
+fire:  fire rock water
+steel:  fire steel water
+grass:  bug fire flying grass poison steel
+water:  fighting grass water
+rock: steel
+poison:  ghost poison rock steel
+ghost: dark
+bug: fighting fire flying ghost poison steel
+
+Battles:
+Natu: (psybeam) vs Tyranitar: (iron_tail) : Tie!
+Scizor: (fury_cutter) vs Typhlosion: (inferno) : Typhlosion: wins!
+Bayleaf: (magical_leaf) vs Totodile: (hydro_pump) : Tie!
+Umbreon: (dark_pulse) vs Crobat: (ariel_ace) : Tie!
+Misdreavus: (psybeam) vs Hitmontop: (triple_kick) : Tie!
+Ho-oh: (inferno) vs Steelix: (stone_edge) : Tie!

@@ -1,0 +1,27 @@
+Pokemon:
+Pidgeotto: flying
+Geodude: rock
+Dugtrio: ground
+Snorlax: normal
+Charmander: fire
+Pikachu: electric
+Articuno: ice
+Bulbasaur: grass
+Squirtle: water
+Machoke: fighting
+
+Moves:
+quick_attack: normal
+razor_leaf: grass
+ice_beam: ice
+air_slash: flying
+body_slam: normal
+spark: electric
+karate_chop: fighting
+flamethrower: fire
+brick_break: fighting
+water_gun: water
+rock_slide: rock
+tackle: normal
+earthquake: ground
+

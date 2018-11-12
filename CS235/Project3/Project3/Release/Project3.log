@@ -1,0 +1,7 @@
+﻿  Source.cpp
+  Generating code
+f:\documents\visual studio 2015\projects\project3\project3\source.cpp(36): warning C4717: 'main': recursive on all control paths, function will cause runtime stack overflow
+  All 11 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Project3.vcxproj -> F:\Documents\Visual Studio 2015\Projects\Project3\Release\Project3.exe
+  Project3.vcxproj -> F:\Documents\Visual Studio 2015\Projects\Project3\Release\Project3.pdb (Full PDB)

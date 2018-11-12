@@ -1,0 +1,11 @@
+﻿  Source.cpp
+f:\documents\visual studio 2015\projects\project14\project14\source.cpp(44): warning C4018: '<': signed/unsigned mismatch
+f:\documents\visual studio 2015\projects\project14\project14\source.cpp(108): warning C4018: '<': signed/unsigned mismatch
+f:\documents\visual studio 2015\projects\project14\project14\source.cpp(156): warning C4018: '<': signed/unsigned mismatch
+f:\documents\visual studio 2015\projects\project14\project14\source.cpp(202): warning C4018: '>': signed/unsigned mismatch
+f:\documents\visual studio 2015\projects\project14\project14\source.cpp(209): warning C4018: '<': signed/unsigned mismatch
+f:\documents\visual studio 2015\projects\project14\project14\source.cpp(214): warning C4018: '<': signed/unsigned mismatch
+f:\documents\visual studio 2015\projects\project14\project14\source.cpp(219): warning C4018: '<': signed/unsigned mismatch
+f:\documents\visual studio 2015\projects\project14\project14\source.cpp(224): warning C4018: '<': signed/unsigned mismatch
+  Project14.vcxproj -> F:\Documents\Visual Studio 2015\Projects\Project14\Debug\Project14.exe
+  Project14.vcxproj -> F:\Documents\Visual Studio 2015\Projects\Project14\Debug\Project14.pdb (Partial PDB)

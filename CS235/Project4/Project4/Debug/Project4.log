@@ -1,0 +1,5 @@
+﻿  Source.cpp
+f:\documents\visual studio 2015\projects\project4\project4\source.cpp(324): warning C4244: '=': conversion from 'const double' to 'int', possible loss of data
+  LINK : F:\Documents\Visual Studio 2015\Projects\Project4\Debug\Project4.exe not found or not built by the last incremental link; performing full link
+  Project4.vcxproj -> F:\Documents\Visual Studio 2015\Projects\Project4\Debug\Project4.exe
+  Project4.vcxproj -> F:\Documents\Visual Studio 2015\Projects\Project4\Debug\Project4.pdb (Partial PDB)

@@ -1,0 +1,4 @@
+﻿  Source.cpp
+f:\documents\visual studio 2015\projects\lab_2\lab_2\source.cpp(110): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Lab_2.vcxproj -> F:\Documents\Visual Studio 2015\Projects\Lab_2\Debug\Lab_2.exe
+  Lab_2.vcxproj -> F:\Documents\Visual Studio 2015\Projects\Lab_2\Debug\Lab_2.pdb (Partial PDB)
