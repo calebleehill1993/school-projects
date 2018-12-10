@@ -157,7 +157,7 @@ public:
     }
   }
   int parse() {
-    for (int i = 0; i < myParseTokens.size(); i++) {
+    for (unsigned int i = 0; i < myParseTokens.size(); i++) {
       if (myParseTokens.at(i).getTokenType() == COMMENT) {
         myParseTokens.erase(myParseTokens.begin() + i);
         i--;

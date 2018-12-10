@@ -55,7 +55,7 @@ public:
   int getLine();
   tokenType getTokenType();
   string enumToString(tokenType someEnum);
-  string &toString();
+  string toString();
 
 
 };

@@ -25,7 +25,7 @@ public:
   string toString() {
     stringstream ss;
     ss << "Rules(" << rules.size() << "):" << endl;
-    for (int i = 0; i < rules.size(); i++) {
+    for (unsigned int i = 0; i < rules.size(); i++) {
       ss << rules.at(i).toString();
     }
     return ss.str();

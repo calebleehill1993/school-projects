@@ -25,7 +25,7 @@ public:
   string toString() {
     stringstream ss;
     ss << "Schemes(" << schemes.size() << "):" << endl;
-    for (int i = 0; i < schemes.size(); i++) {
+    for (unsigned int i = 0; i < schemes.size(); i++) {
         ss << "  " << schemes.at(i).toString() << endl;
     }
     return ss.str();

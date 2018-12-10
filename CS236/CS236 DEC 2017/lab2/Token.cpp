@@ -58,6 +58,8 @@ string Token::enumToString(tokenType someEnum) {
     return "UNDEFINED";
     case END_OF_FILE :
     return "EOF";
+    default :
+    return "FAILED TO DEFAULT";
   }
 }
 

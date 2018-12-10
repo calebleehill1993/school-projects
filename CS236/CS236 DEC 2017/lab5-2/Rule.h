@@ -29,7 +29,7 @@ public:
     string toString() {
         stringstream ss;
         ss << "  " << headPredicate.toString() << " :- " << predicates.at(0).toString();
-        for (int i = 1; i < predicates.size(); i++) {
+        for (unsigned int i = 1; i < predicates.size(); i++) {
             ss << "," << predicates.at(i).toString();
         }
         ss << "." << endl;

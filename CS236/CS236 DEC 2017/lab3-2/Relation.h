@@ -29,7 +29,7 @@ public:
     for (auto i:tuples) {
       ss << endl;
       first = true;
-      for (int j = 0; j < schema.getVector().size(); j++) {
+      for (unsigned int j = 0; j < schema.getVector().size(); j++) {
         if (first) {
           ss << "  " << schema.getVector().at(j) << "=" << i.at(j);
         }

@@ -58,10 +58,12 @@ string Token::enumToString(tokenType someEnum) {
     return "UNDEFINED";
     case END_OF_FILE :
     return "EOF";
+    default :
+    return "FAILED TO DEFAULT";
   }
 }
 
-string &Token::toString() {
+string Token::toString() {
   stringstream ss;
   ss << "("  << enumToString(getTokenType()) << ",\"" << getString() << "\"," << getLine() << ")" << endl;
   string temp = ss.str();

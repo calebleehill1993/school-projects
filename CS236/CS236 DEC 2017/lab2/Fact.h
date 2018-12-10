@@ -32,7 +32,7 @@ public:
     string toString() {
         stringstream ss;
         ss << id.toString() << "(" << factStrings.at(0).toString();
-        for (int i = 1; i < factStrings.size(); i++) {
+        for (unsigned int i = 1; i < factStrings.size(); i++) {
             ss << "," << factStrings.at(i).toString();
         }
         ss << ").";

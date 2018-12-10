@@ -23,7 +23,7 @@ public:
   string toString() {
     stringstream ss;
     ss << "Facts(" << facts.size() << "):" << endl;
-    for (int i = 0; i < facts.size(); i++) {
+    for (unsigned int i = 0; i < facts.size(); i++) {
       ss << "  " << facts.at(i).toString() << endl;
     }
     return ss.str();

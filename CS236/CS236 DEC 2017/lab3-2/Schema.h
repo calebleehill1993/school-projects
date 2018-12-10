@@ -16,7 +16,7 @@ public:
 
   string toString() {
     stringstream ss;
-    for (int i = 0; i < schema.size(); i++) {
+    for (unsigned int i = 0; i < schema.size(); i++) {
       ss << schema.at(i) << " ";
     }
     return ss.str();

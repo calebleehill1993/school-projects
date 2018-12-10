@@ -29,7 +29,7 @@ public:
   string toString() {
     stringstream ss;
     ss << predicateID.toString() << "(" << parameters.at(0).toString();
-    for (int i = 1; i < parameters.size(); i++) {
+    for (unsigned int i = 1; i < parameters.size(); i++) {
       ss << "," << parameters.at(i).toString();
     }
     ss << ")";

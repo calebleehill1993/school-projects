@@ -53,7 +53,7 @@ public:
     return relation;
   }
   Schema schemeToSchema(Scheme &scheme) {
-    Schema schema(scheme.getVector());
+    return Schema(scheme.getVector()); 
   }
   void addSchemaToDatabase(Schemes &schemes) {
     bool found = false;
@@ -77,7 +77,7 @@ public:
     if (tupleOrder.size() <= 0) {
       return newR;
     }
-    for (int i = 0; i < tupleOrder.size(); i++) {
+    for (unsigned int i = 0; i < tupleOrder.size(); i++) {
       s.insert(tupleOrder.at(i).first);
     }
     // s.reverse();
@@ -94,7 +94,7 @@ public:
     return r;
   }
   bool find(string check, vector<pair<string,int>> &myPair) {
-    for (int i = 0; i < myPair.size(); i++) {
+    for (unsigned int i = 0; i < myPair.size(); i++) {
       if (myPair.at(i).first == check) {
         return true;
       }
@@ -143,7 +143,7 @@ public:
   }
   vector<int> projectIndices(vector<Parameter> &parameters, int index) {
     vector<int> indices;
-    for (int i = 0; i < parameters.size(); i++) {
+    for (unsigned int i = 0; i < parameters.size(); i++) {
       if (parameters.at(index).getToken().getString() == parameters.at(i).getToken().getString()) {
         indices.push_back(i);
       }
@@ -187,7 +187,7 @@ public:
     for (auto i:r.getTuples()) {
       tupleBad = false;
       string toCompare = i.at(indices.at(0));
-      for (int j = 0; j < indices.size(); j++) {
+      for (unsigned int j = 0; j < indices.size(); j++) {
         if (i.at(indices.at(j)) != toCompare) {
           tupleBad = true;
           break;
@@ -269,7 +269,7 @@ public:
   Tuple joinTuple(Schema &s1, Schema &s2, Tuple &t1, Tuple &t2) {
     Tuple t = t1;
     bool match = false;
-    for (int i = 0; i < s2.getVector().size(); i++) {
+    for (unsigned int i = 0; i < s2.getVector().size(); i++) {
       match = false;
       for (auto j:s1.getVector()) {
         if (s2.getVector().at(i) == j) {
@@ -300,8 +300,8 @@ public:
     return r;
   }
   bool canJoin(Schema &s1, Schema &s2, Tuple &t1, Tuple &t2) {
-    for (int i = 0; i < s1.getVector().size(); i++) {
-      for (int j = 0; j < s2.getVector().size(); j++) {
+    for (unsigned int i = 0; i < s1.getVector().size(); i++) {
+      for (unsigned int j = 0; j < s2.getVector().size(); j++) {
         if(s1.getVector().at(i) == s2.getVector().at(j) && t1.at(i) != t2.at(j)) {
           return false;
         }
@@ -338,7 +338,7 @@ public:
     for (auto i:DLP.getRules().getRules()) {
       vertex.clear();
       for (auto j:i.getPredicates()) {
-        for (int k = 0; k < DLP.getRules().getRules().size(); k++) {
+        for (unsigned int k = 0; k < DLP.getRules().getRules().size(); k++) {
           if (DLP.getRules().getRules().at(k).getHeadString() == j.getPredicateIdString()) {
             vertex.insert(k);
           }
@@ -365,7 +365,7 @@ public:
     myGraph.findAllSCC();
     cout << myGraph.toString();
     cout << endl << "Rule Evaluation" << endl;
-    for (int i = 0; i < myGraph.getSCC().size(); i++) {
+    for (unsigned int i = 0; i < myGraph.getSCC().size(); i++) {
       Rules rules = getSCCRules(myGraph.getSCC().at(i));
       evaluateRules(rules, myGraph.getSCC().at(i), i);
     }

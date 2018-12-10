@@ -238,7 +238,7 @@ bool Lexer::checkIfLine() {
 
 string Lexer::printTokenList() {
   stringstream ss;
-  for (int i = 0; i < tokenList.size(); i++) {
+  for (unsigned int i = 0; i < tokenList.size(); i++) {
     ss << tokenList.at(i).toString();
   }
   ss << "Total Tokens = " << tokenList.size() << endl;

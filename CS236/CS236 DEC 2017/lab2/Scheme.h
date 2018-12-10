@@ -22,7 +22,7 @@ public:
     string toString() {
         stringstream ss;
         ss << id.toString() << "(" << ids.at(0).toString();
-        for (int i = 1; i < ids.size(); i++) {
+        for (unsigned int i = 1; i < ids.size(); i++) {
             ss << "," << ids.at(i).toString();
         }
         ss << ")";
