@@ -36,8 +36,13 @@ public class ImageEditor {
             System.out.println("USAGE: java ImageEditor in-file out-file (grayscale|invert|emboss|motionblur motion-blur-length)");
           }
         }
-        else if (args.length == 4 && args[2].equals("motionblur") && Integer.parseInt(args[3]) >= 0) {
-          newImage = ImageWriter.blur(originalPpm, Integer.parseInt(args[3]));
+        else if (args.length == 4 && args[2].equals("motionblur") && args[3].matches("\\d+")) {
+          if (Integer.parseInt(args[3]) == 0) {
+            newImage = originalPpm;
+          }
+          else {
+            newImage = ImageWriter.blur(originalPpm, Integer.parseInt(args[3]));
+          }
         }
         else {
           newImage = originalPpm;
