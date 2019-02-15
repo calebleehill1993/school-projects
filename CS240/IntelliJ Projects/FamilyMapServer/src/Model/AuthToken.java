@@ -1,6 +1,6 @@
 package Model;
 
-/** AuthorizationToken class description */
+/** Puts a username and authToken in the same object */
 public class AuthToken {
 
     //Class properties
@@ -9,7 +9,15 @@ public class AuthToken {
     /** userName from User Class */
     String user;
 
-    public AuthToken (){
+    /** Builds an AuthToken with username and sets AuthToken with generator
+     *
+     * @param username*/
+    public AuthToken (String username){
+
+    }
+
+    /** Generates a random authToken and sets it for the AuthToken */
+    public void generateAuthToken() {
 
     }
 }

@@ -1,6 +1,6 @@
 package Model;
 
-/** Person class description */
+/** Object that holds all the parameters for a Person */
 public class Person {
 
     //Class properties
@@ -19,4 +19,12 @@ public class Person {
     /** personID of "spouse" Person object */
     String spouseID;
 
+    public Person() {
+
+    }
+
+    /** Generates a personID and sets it for the person. */
+    public void generatePersonID() {
+
+    }
 }

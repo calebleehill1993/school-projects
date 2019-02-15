@@ -1,6 +1,8 @@
 package Model;
 
-/** User class description */
+import Request.RegisterRequest;
+
+/** Holds all the parameters for a User */
 public class User {
 
     //Class properties
@@ -14,15 +16,18 @@ public class User {
     /** Connects a user to a Person Class */
     private String personID;
 
-    /** Constructor Description of User() */
-    public User() {
+    /** Builds a User with all parameters from the RegisterRequest
+     * Also builds a person and sets the personID
+     *
+     * @param registerRequest
+     */
+    public User(RegisterRequest registerRequest) {
         // Do something ...
     }
 
-    /** gets email
-     * @return      gets the email String
-     */
-    public String getEmail() {
-        return email;
+    /** Builds 4 generations of people connected to the user */
+    public void generateFourGenerations() {
+
     }
+
 }

@@ -16,7 +16,8 @@ public class RegisterService {
     public RegisterService(RegisterRequest registerRequest) {
 
     }
-    /** If RegisterResult is good, creates a new user account, generates 4 generations of ancestor data for the new user and logs the user in.
+    /** If RegisterResult is good, creates a new user account, generates 4 generations of ancestor
+     * data for the new user and logs the user in. The RegisterResult has the authToken in it as well.
      * @return  RegisterResult
      */
     public RegisterResult register() {

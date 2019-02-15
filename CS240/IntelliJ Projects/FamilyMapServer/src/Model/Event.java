@@ -1,6 +1,6 @@
 package Model;
 
-/** Event class description */
+/** Object that holds all the parameters of an Event */
 public class Event {
 
     //Class properties
