@@ -1,21 +1,19 @@
 package Request;
 
 /** Request to get a person */
-public class PersonRequest {
+public class EventRequest {
 
-    String personID;
+    String eventID;
 
     /** Sets the personID as the users personID */
-    public PersonRequest() {
+    public EventRequest() {
 
     }
 
     /** Sets the personID as the personID given
      *
-     * @param personID*/
-    public PersonRequest(String personID) {
+     * @param eventID*/
+    public EventRequest(String eventID) {
 
     }
-
 }
-

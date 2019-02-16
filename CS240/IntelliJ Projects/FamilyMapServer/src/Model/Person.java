@@ -19,7 +19,17 @@ public class Person {
     /** personID of "spouse" Person object */
     String spouseID;
 
-    public Person() {
+    /** Creates a Person using only the descendant. This will generate all the other information
+     *
+     * @param descendant */
+    public Person(String descendant) {
+
+    }
+
+    /** Creates a person for the user
+     *
+     * @param user */
+    public Person(User user) {
 
     }
 
@@ -27,4 +37,20 @@ public class Person {
     public void generatePersonID() {
 
     }
+
+    /** Generates a firstName and sets it for the person. */
+    public void generateFirstName() {
+
+    }
+
+    /** Generates a lastName and sets it for the person. */
+    public void generateLastName() {
+
+    }
+
+    /** Generates a gender and sets it for the person. */
+    public void generateGender() {
+
+    }
+
 }
