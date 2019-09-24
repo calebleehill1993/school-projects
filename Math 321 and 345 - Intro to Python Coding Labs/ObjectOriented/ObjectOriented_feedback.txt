@@ -1,0 +1,44 @@
+09/20/19 14:25
+
+Problem 1 (10 points):
+Backpack.put() failed to print "No Room!"
+ValueError: operands could not be broadcast together with shapes (2,) (3,) 
+
+Problem 2 (10 points):
+Jetpack.put() failed to print "No Room!"
+ValueError: operands could not be broadcast together with shapes (3,) (4,) 
+
+Problem 3 (10 points):
+Score += 10
+
+Problem 4 (15 points):
+Score += 15
+
+Code Quality (5 points):
+Score += 5
+
+Total score: 30/50 = 60.0%
+
+-------------------------------------------------------------------------------
+
+09/21/19 15:12
+
+Problem 1 (10 points):
+Score += 10
+
+Problem 2 (10 points):
+TypeError: dump() takes 0 positional arguments but 1 was given
+
+Problem 3 (10 points):
+Score += 10
+
+Problem 4 (15 points):
+Score += 15
+
+Code Quality (5 points):
+Score += 5
+
+Total score: 40/50 = 80.0%
+
+-------------------------------------------------------------------------------
+
