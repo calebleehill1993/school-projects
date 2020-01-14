@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class ImageEditorTest {
+class PpmImageEditorTest {
     private static final String SOURCE_IMAGE_DIRECTORY = "source_images/";
     private static final String OUT_IMAGE_DIRECTORY = "out_images/";
     private static final String KEY_IMAGE_DIRCTORY = "key_images/";
