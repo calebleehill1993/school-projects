@@ -4,24 +4,24 @@ import java.util.SortedSet;
 import java.util.TreeSet;
 
 public class Trie implements ITrie{
+
 	private Node root;
 	private int nodeCount;
 	private int wordCount;
-	private SortedSet<String> prevWords;
 	private int hash;
 	private String toString;
+	private boolean equal;
 
 	public Trie(){
 		root = new Node();
 		nodeCount = 1;
 		wordCount = 0;
-		prevWords = new TreeSet<String>();
 		hash = 0;
 		toString = "";
+		equal = true;
 	}
 
 	public void add(String word){
-		prevWords.add(word);
 		Node n = root;
 		for(int i = 0; i < word.length(); i++){
 			if(n.nodeArray[word.charAt(i) - 'a'] == null){
@@ -69,36 +69,23 @@ public class Trie implements ITrie{
 	public int getWordCount(){ return wordCount;}
 	public int getNodeCount(){ return nodeCount;}
 
+
 	@Override
 	public String toString(){
 		toString = "";
-		return getList(root, "");
+		getList(root, "");
+		return toString.substring(0, toString.length() - 1);
 	}
 
-	public String getList(Node currentNode, String currentWord){
+	public void getList(Node currentNode, String currentWord){
 		for (int i = 0; i < 26; i++){
 			if (currentNode.nodeArray[i] != null){
 				if (currentNode.nodeArray[i].getValue() > 0){
-					System.out.print(currentWord);
 					toString += currentWord + (char)('a' + i) + "\n";
 				}
-				boolean empty = true;
-				for (int j = 0; j < 26; j++) {
-					if (currentNode.nodeArray[i].nodeArray[j] != null){
-						empty = false;
-						break;
-					}
-				}
-				if (!empty){
-					return getList(currentNode.nodeArray[i], currentWord + (char)('a' + i));
-				}
+				getList(currentNode.nodeArray[i], currentWord + (char)('a' + i));
 			}
 		}
-		if (toString == ""){
-			return "";
-		}
-		System.out.print(toString);
-		return toString.substring(0, toString.length() - 1);
 	}
 
 	@Override
@@ -111,10 +98,35 @@ public class Trie implements ITrie{
 		else if(this.getClass() != o.getClass())
 			return false;
 		else{
-			return true;
+			equal = true;
+			equals2(root, ((Trie) o).getRoot());
+			return equal;
 		}
 	}
 
-//	public boolean equals2()
+	public void equals2(Node currentNode, Node oNode){
+		for (int i = 0; i < 26; i++){
+			if (currentNode.nodeArray[i] != null && oNode.nodeArray[i] != null){
+				if (currentNode.nodeArray[i].getValue() == oNode.nodeArray[i].getValue()){
+					equals2(currentNode.nodeArray[i], oNode.nodeArray[i]);
+				}
+				else {
+					equal = false;
+					return;
+				}
+			}
+			else if (currentNode.nodeArray[i] == null && oNode.nodeArray[i] == null) {
+
+			}
+			else {
+				equal = false;
+				return;
+			}
+		}
+	}
+
+	public Node getRoot() {
+		return root;
+	}
 
 }
