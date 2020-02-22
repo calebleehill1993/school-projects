@@ -7,10 +7,6 @@ import java.sql.Connection;
 import org.junit.*;
 import static org.junit.Assert.*;
 
-/**
- * Created by westenm on 2/5/19.
- */
-
 //We will use this to test that our insert function is working and failing in the right ways
 public class PersonDaoTest {
     Database db;
