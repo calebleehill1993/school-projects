@@ -1,0 +1,9 @@
+Lab 1 - Photographers Website (photography.calebleehill.com)
+Creative 1 - Elizabeth's Website (thecraftroom.calebleehill.com)
+Lab 2 - weather app (weather.calebleehill.com)
+Creative 2 - added Quote API to Elizabeth's Website
+Lab 3a - XKCD Browers using Vue (lab3a.calebleehill.com)
+Lab 3b - Grocery Store (lab3b.calebleehill.com)
+Creative 3 - Battle Botz Stats Website (battlebotz.calebleehill.com)
+Lab 4 - Museum of Ordinary objects (museum.calebleehill.com)
+Creative 4 - caleb's portfolio (calebleehill.com)

@@ -1,0 +1,112 @@
+.navbar-light .navbar-brand{
+  color: #997f68;
+  font-family: "Times New Roman";
+  text-decoration: underline;
+  text-decoration-color: #b39274;
+}
+
+.navbar-light .navbar-brand:hover{
+  color: #997f68;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    font-weight: bold;
+    color: #557a95;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #88b2d1;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+  color: #557a95;
+}
+
+body {
+  background-color: #997f68;
+  background-image: url("../images/80616612-light-brown-leather-texture-seamless-square-background-tile-ready-high-resolution-photo-.jpg");
+  background-repeat:repeat;
+}
+
+.homepage {
+  display: grid;
+  grid-template: auto auto auto auto auto / 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+/* Image Grid */
+.portfolio {
+  display: grid;
+  grid-template: auto auto auto auto auto / 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.image img {
+  width: 100%;
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+.portfolio {
+    grid-template: auto auto auto / 1fr 1fr;
+  }
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  .portfolio {
+      grid-template: auto / 1fr;
+    }
+}
+
+.col-centered{
+float: none;
+margin: auto;
+}
+
+.hor-center {
+  float: none;
+  margin: 60px auto;
+  text-align: center;
+}
+
+.copyrights {
+  margin: 60px auto 10px auto;
+}
+
+h1 {
+    color: #4a494f;
+    font-family: "Times New Roman";
+    text-decoration: underline;
+    text-decoration-color: #997f68;
+    font-weight: bold;
+}
+
+h3 {
+  font-size: 16px;
+  margin: 5px auto 50px auto;
+  text-align: center;
+  color: #b39274;
+  font-family: "Garamond";
+}
+
+.no-bottom {
+  margin: 0px auto;
+}
+
+p, ul {
+  color: #b39274;
+  font-family: "Garamond";
+}
+
+.home-about {
+  font-size: 24px;
+}
+
+.link-center {
+  float: none;
+  margin: auto;
+  text-align: center;
+}
